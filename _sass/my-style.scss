@@ -1,0 +1,212 @@
+.dl-table {
+  a {
+    @supports ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
+      text-underline-offset: .8rem;
+    }
+    @supports not ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
+      padding-bottom: .45rem;
+    }
+  }
+
+  .btn, .gumroad-button  {
+    margin: 1rem 0;
+  }
+}
+
+
+
+
+// for top-menu
+.top-menu-wrapper{
+  display: inline-block;
+}
+
+.top-menu{
+  overflow-x: auto; // overflowx 속성은 x 축, 즉 왼쪽과 오른쪽의 내용이 더 길 때(가로),
+  overflow-y: hidden; // overflowy 속성은 y 축, 즉 위와 아래의 내용이 더 길때 (세로) 어떻게 보일지 선택하는 속성
+  white-space: nowrap; // whitespace 는 스페이스와 탭, 줄바꿈, 자동줄바꿈을 어떻게 처리할지 정하는 속성, nowrap :병합
+  margin-right: 17px;
+}
+
+.top-menu.nav-btn{
+  border: none;
+  display: inline-flex; // Flex 는 요소의 크기가 불분명하거나 동적인 경우에도, 각 요소를 정렬할 수 있는 효율적인 방법을 제공, Inline 특성의 Flex Container 를 정의
+  width: 6rem; // inlineflex : Inline(Inline Block) 요소와 같은 성향(수평 쌓임)
+  margin-left: -1px;
+}
+
+.avatar {
+  width: 12rem !important;
+  height: 12rem !important;
+  border-radius: 100%;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.content .avatar {
+  width: 7rem !important;
+  height: 7rem !important;
+  float: left;
+  box-sizing: content-box;
+  border: 1rem solid var(--body-bg);
+  transition: border-color 1s ease;
+  margin-top: -1.5rem;
+  margin-right: -1rem;
+}
+
+.page-control {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.page-control > div {
+max-width: 50%;
+}
+
+/* CSS */
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
+// 메뉴
+.spread-btn{
+  right: 15%;
+  position: absolute;
+  padding: 0;
+  padding-top: 2px;
+  border: none;
+  background: none;
+  color: white;
+  cursor: pointer;
+  z-index: 1;
+  }
+  .menu-wrapper {
+  text-align: left;
+  margin-left: 30%;
+  }
+  .submenu.menu-wrapper{
+  right: 10%;
+  position: absolute;
+  background-color: rgb(95, 73, 80);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+width: 10rem;
+z-index: 2;
+ul{
+margin: 0;
+padding: 0 1.25rem;
+}
+}
+.submenu.menu-wrapper.hide{
+display: none;
+}
+a::after{
+  display: none !important;
+}
+
+// time-line 목차 리스트 
+.list-lead{
+  margin-bottom: 0 !important; }
+  .list-lead::after {
+  content:"" !important; 
+  display:block !important; 
+  position: relative !important; 
+  border-radius: 50% !important; 
+  width: 12px !important; 
+  height: 12px !important;
+  top: -21px !important;
+  left: 62px !important;
+    // border: 3px solid;
+  background-color: lightgrey !important;
+  z-index: 1 !important;
+  }
+  .list-post li {
+  line-height: 3rem !important;}
+  .list-post > ul > li:first-child::before, .list-post > ul > li::after{
+  content: "" !important;
+  width: 4px !important;
+  left: 66px !important;
+  display: inline-block !important; 
+  float: left !important;
+  position: relative !important; 
+  background-color: lightgrey !important;
+  }
+  .list-post > ul > li > div{
+  white-space: nowrap !important; 
+  overflow: hidden !important; 
+  text-overflow: ellipsis !important;
+  }
+  .list-post > ul > li > div > a{
+  margin-left: 1.5rem !important;
+  position: relative !important; }
+  .list-post > ul > li > div > a::before{ 
+  content: "" !important;
+  display: inline-block !important; 
+  position: relative !important; 
+  border-radius: 50% !important; 
+  width: 8px !important;
+  height: 8px !important;
+  float: left !important;
+  top: 1.35rem !important;
+  left: 60px !important;
+  box-shadow: 0 0 5px 0 grey !important; 
+  background-color: white !important; 
+  z-index: 1 !important;
+  transition: all 0.5s !important; }
+  .list-post > ul > li > div > a:hover::before{ 
+    background-color: lightgrey !important; 
+    margin-right: 0.3rem !important; 
+    box-shadow: 0 0 2px 0 grey !important;
+  }
+  .list-post > ul > li:first-child::before{
+  height: 3.0rem !important;
+    top: -1.5rem !important;
+  }
+  .list-post > ul > li:not(:last-child)::after{ height: 3.3rem !important;
+  top: -1.3rem !important;
+  }

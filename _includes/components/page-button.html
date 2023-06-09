@@ -1,0 +1,14 @@
+<div class="page-control">
+    <div>
+        {% if page.previous.url %}
+
+        
+        <a id="prev" class="button-30" role="button" href="{{ page.previous.url }}" style="width:150px">&laquo; previous </a>
+        {% endif %}
+    </div>
+    <div>
+        {% if page.next.url %}
+        <a id="next" class="button-30" role="button" href="{{ page.next.url }}" style="width:150px"> next&raquo;</a>
+        {% endif %}
+    </div>
+</div>
