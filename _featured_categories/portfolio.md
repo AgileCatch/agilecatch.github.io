@@ -13,12 +13,11 @@ hide_description: true
 
 * * *
 <center>
-<span style="font-size:170%;font-weight:bold;margin-left:50px">
-Yeonghyeon Kim
-</span>
+<span style="font-size:170%;font-weight:bold;">
+Yeonghyeon Kim</span>
 </center>
 
-<center>MAJOR : SOFTWARE EENGINEER</center>
+<center>MAJOR : SOFTWARE ENGINEER</center>
 
 <center>Korean University</center>
 
@@ -37,7 +36,7 @@ Yeonghyeon Kim
 >
 > IT융합대학 정보통신공학과 (Department of Information and Communication Engineering)
 
-## Research Interest
+<!--## Research Interest
 ---
 * Computer Vision
 + image Object Detection
@@ -47,31 +46,39 @@ Yeonghyeon Kim
 * Machine Learning / Deep Learning
 + GAN
 + Few-Shot Learning
-+ Meta Learning
++ Meta Learning-->
 
 ## Project
 ---
-* **Visual Object Tracking Using Plenoptic Image Sequences**
-* **FPV Swlf-driving RC Car**
-* **Anti Drone AI Robot using object detection**
-* **AI Mashroom Classificator App**
+* **AndroidStudio <폐지모아> App**
+
+<!--## Work Experiences Permalink-->
 
 ## Awards
 ---
-<u><strong><a href="https://www.youtube.com/watch?v=-ofj2vTvH0Q/">The 15th HANSUNG Engineering Competitive Exhibition[PM] 2019 </a></strong></u>
+2022 빛가람에너지밸리 소프트웨어 소프트웨어 작품 경진대회[PM] 2019 </a></strong></u>
+
+- 주최, 주관: 한전KDN(주)
+
+- Encouragement Award
+
+
+The 14th  IT Festival S/W Idea Competition[PM] 2019 </a></strong></u>
 
 - 주최, 주관: 조선대학교
 
-- BRONZE PRIZE, SPONSOR PRIZE
+- Silver Award
 
-## Work Experiences
----
--2020. 07 – 2020. 11
-Work place name and what i did 
+
+
+
 
 ## Skills and Certification
 ---
--Languages : Java, JavaScript, JSP <br/>
--FrameWork: Spring,  Tensorflow(Keras) <br/>
--Certification : SQLD, 정보처리기사
+-Languages : Java, Kotlin, C, C++ <br/>
+-Development Tools: Android Studio, VS Code, Visual Studio<br/>
+Frameworks: Flutter<br/>
+-Collaboration Platforms: GitHub<br/>
+-Documentation Tools: Typora<br/>
+-Certification : 정보처리기사,  Adobe Premiere Pro CS6, Adobe Photoshop CS6
 
