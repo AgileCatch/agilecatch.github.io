@@ -1,10 +1,10 @@
 ---
 layout: list
 category: devlog
-bigtitle: Trouble Shootin
+bigtitle: Trouble Shooting
 slug: trouble_shooting
 description: >
-    문제해결
+    문제해결 공간
 related_posts:
     - 
 list: true
