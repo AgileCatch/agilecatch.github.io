@@ -1,7 +1,7 @@
 ---
 layout: list
 category: devlog
-bigtitle: Trouble Shooting
+bigtitle: Trouble_Shooting
 slug: trouble_shooting
 description: >
     문제해결 공간
