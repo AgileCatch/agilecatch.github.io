@@ -21,7 +21,7 @@ Yeonghyeon Kim</span>
 
 
 
-<br>
+<br/>
 ## Personal Data
 ---
 > 2000.05.25 대한민국<br/>
