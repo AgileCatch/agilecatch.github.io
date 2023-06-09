@@ -1,0 +1,18 @@
+---
+layout: post
+title: 알고리즘 문제풀이
+image: /assets/img/blog/kotlin.png
+accent_image: 
+  background: url('/assets/img/me/wave3.jpg') center/cover
+  overlay: false
+accent_color: '#fff'
+theme_color: '#fff'
+description: >
+    coding test
+invert_sidebar: true
+categories :
+ - devlog	
+ - algorithm
+---
+
+# 알고리즘 문제풀이-1
