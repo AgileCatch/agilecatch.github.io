@@ -57,6 +57,8 @@ menu:
        url :            /algorithm/
      - title :          Kotlin
        url :            /kotlin/
+     - title :          Trouble Shooting
+       url :            /trouble_shooting/  
   - title:             Project
     url:               /project/
   - title:             Portfolio
