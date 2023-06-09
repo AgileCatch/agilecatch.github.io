@@ -48,7 +48,9 @@ Yeonghyeon Kim</span>
 
 ## Project
 ---
--* **AndroidStudio <폐지모아> App**
+* **AndroidStudio <폐지모아> App**
+<!--링크추가 방법
+<u><strong><a href="https://www.youtube.com/watch?v=-ofj2vTvH0Q/">The 15th HANSUNG Engineering Competitive Exhibition[PM] 2019 </a></strong></u>-->
 
 <!--## Work Experiences Permalink-->
 
