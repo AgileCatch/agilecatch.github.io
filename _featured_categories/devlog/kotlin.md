@@ -4,7 +4,7 @@ category: devlog
 bigtitle: Kotlin
 slug: kotlin
 description: >
-    코틀린 공부
+    안드로이드&코틀린 공부공간
 related_posts:
     - 
 list: true
