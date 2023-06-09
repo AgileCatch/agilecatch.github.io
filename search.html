@@ -1,0 +1,65 @@
+---
+title: Search
+description: "Search this site"
+layout: default
+permalink: /search/
+tipue_search_active: true
+exclude_from_search: true
+---
+
+<form action="{{ page.url | relative_url }}">
+  <div class="tipue_search_left"><img src="{{ '/assets/tipuesearch/search.png' | relative_url }}" class="tipue_search_icon"></div>
+  <div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required></div>
+  <div style="clear: both;"></div>
+</form>
+
+<!-- search box 
+<form action="/search">
+  <div class="tipue_search_box">
+    <img src="/assets/tipuesearch/search.png" class="tipue_search_icon">
+    <input type="text" name="q" id="tipue_search_input" pattern=".{2,}" title="최소 2글자 이상" required></div>
+  <div style="clear: both;"></div>
+</form>
+-->
+<!--<div id="tipue_search_content"></div> 이 부분은 search_content.js가 담당 -->
+
+
+<script>  
+  $(document).ready(function() {
+      $('#tipue_search_input').tipuesearch({
+        'wholeWords': false,
+        'showTime': false,
+        'minimumLength': 1
+      });
+    });
+  </script>
+
+
+<article class="postWrapper">
+  <section class="section--first section--about is-darkBackgrounded u-table">
+    <div class="section-backgroundImage"> 
+    
+    </div>
+    <div class="section-gradient"></div>
+    <div class="section-title is-darkBackgrounded u-tableCell u-verticalAlignMiddle">
+      <div class="container">
+        <h1>검색 결과</h1>
+        <div class="postMeta-wrapper">
+          <ul class="postMeta">
+            <li class="postMeta-author">
+              검색 결과를 보여줍니다.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section--last">
+    <div class="container container--content">
+      <div class="content-body">
+        <div id="tipue_search_content"></div>
+      </div>
+    </div>
+  </section>
+</article>
+<hr/>
