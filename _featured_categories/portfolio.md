@@ -16,9 +16,7 @@ hide_description: true
 <span style="font-size:170%;font-weight:bold;">
 Yeonghyeon Kim</span>
 </center>
-
 <center>MAJOR : SOFTWARE ENGINEER</center>
-
 <center>Korean University</center>
 
 
@@ -50,20 +48,20 @@ Yeonghyeon Kim</span>
 
 ## Project
 ---
-* **AndroidStudio <폐지모아> App**
+-* **AndroidStudio <폐지모아> App**
 
 <!--## Work Experiences Permalink-->
 
 ## Awards
 ---
-2022 빛가람에너지밸리 소프트웨어 소프트웨어 작품 경진대회[PM] 2019 </a></strong></u>
+<u><strong>2022 빛가람에너지밸리 소프트웨어 소프트웨어 작품 경진대회[PM] 2019 </strong></u>
 
 - 주최, 주관: 한전KDN(주)
 
 - Encouragement Award
 
 
-The 14th  IT Festival S/W Idea Competition[PM] 2019 </a></strong></u>
+<u><strong>The 14th  IT Festival S/W Idea Competition[PM] 2019 </strong></u>
 
 - 주최, 주관: 조선대학교
 
