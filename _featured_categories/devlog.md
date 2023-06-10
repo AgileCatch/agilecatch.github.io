@@ -16,10 +16,10 @@ description: >
 
 ## categories
 
-* [Algorithm] <--- Algorithmic Adventure 바로가기!
-* [Kotlin] <--- Android App Development Playground 바로가기!
-* [Fixit]<--- Programming Puzzles 바로가기!
+* **[Algorithm]** <--- Algorithmic Adventure 바로가기!
+* **[Kotlin]** <--- Android App Development Playground 바로가기!
+* **[Fixit]**<--- Programming Puzzles 바로가기!
 
 [Algorithm]: /algorithm/
-[Kotlin]: /kotlin/ 
+[Kotlin]: /kotlin/
 [Fixit]: /fixit/
