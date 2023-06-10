@@ -7,7 +7,7 @@ menu: true
 submenu: true
 
 description: >
-좋은 개발자로 성장하는 여정의 기록
+    좋은 개발자로 성장하는 여정의 기록
 ---
 
 
