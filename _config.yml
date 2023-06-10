@@ -33,7 +33,7 @@ description:           >
 tagline:               "S/W Engineer - 김영현(기록하는 습관)"
 
 # A list of keywords for your blog
-keywords:              [ Kotlin, Adroid, gitblog ]
+keywords:              [ Kotlin, JAVA, C, C++, C#, Git]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -57,8 +57,8 @@ menu:
        url :            /algorithm/
      - title :          Kotlin
        url :            /kotlin/
-     - title :          TroubleShooting
-       url :            /troubleshooting/  
+     - title :          Fixit
+       url :            /fixit/  
   - title:             Project
     url:               /project/
   - title:             Portfolio

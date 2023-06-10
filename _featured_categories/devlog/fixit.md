@@ -1,8 +1,8 @@
 ---
 layout: list
 category: devlog
-bigtitle: TroubleShooting
-slug: troubleshooting
+bigtitle: Fixit
+slug: fixit
 description: >
     문제해결 공간
 related_posts:

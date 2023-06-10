@@ -18,8 +18,8 @@ description: >
 
 * [Algorithm] <--- 알고리즘 문제풀이 바로가기!
 * [Kotlin] <--- 코틀린 공부 바로가기!
-* [TroubleShooting]<--- 문제해결 바로가기!
+* [Fixit]<--- 문제해결 바로가기!
 
 [Algorithm]: /algorithm/
 [Kotlin]: /kotlin/ 
-[TroubleShooting]: /troubleshooting/
+[Fixit]: /fixit/
