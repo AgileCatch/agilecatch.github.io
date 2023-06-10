@@ -7,7 +7,7 @@ menu: true
 submenu: true
 
 description: >
-    Agilecatch의 개발공간입니다!
+"좋은 개발자로 성장하는 여정의 기록"
 ---
 
 
