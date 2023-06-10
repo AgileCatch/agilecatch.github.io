@@ -16,9 +16,9 @@ description: >
 
 ## categories
 
-* [Algorithm] <--- 알고리즘 문제풀이 바로가기!
-* [Kotlin] <--- 코틀린 공부 바로가기!
-* [Fixit]<--- 문제해결 바로가기!
+* [Algorithm] <--- Algorithmic Adventure 바로가기!
+* [Kotlin] <--- Android App Development Playground 바로가기!
+* [Fixit]<--- Programming Puzzles 바로가기!
 
 [Algorithm]: /algorithm/
 [Kotlin]: /kotlin/ 

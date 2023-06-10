@@ -4,7 +4,7 @@ category: devlog
 bigtitle: Fixit
 slug: fixit
 description: >
-    문제해결 공간
+    Programming Puzzles    
 related_posts:
     - 
 list: true
