@@ -18,7 +18,7 @@ layout: page
 {% assign posts = site.categories[page.slug] | default:site.tags[page.slug] | default:site.posts %}
 {% assign date_formats = site.data.strings.date_formats %} 
 {% assign list_group_by = date_formats.list_group_by | default:"%Y" %} 
-% assign list_entry = date_formats.list_entry | default:"%m %d" %}
+{% assign list_entry = date_formats.list_entry | default:"%m %d" %}
 {% assign prev_date = 0 %}
 {% if page.no_groups %}<ul class="related-posts">{% endif %} <div class="list-post">
 {% for post in posts %}
