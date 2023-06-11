@@ -113,29 +113,23 @@ Name을 MyFirstApplication이라고 지정한 예이라고 지정한 예
 
 - SDK Platforms 탭을 클릭하면 소스 코드를 빌드할 때 사용하는 플랫폼이 버전별로 표시된 것을 확인할 수 있다.
 
-- 컴퓨터에 설치된 플랫폼은 Status 부분이 "Installed"로 표시되어 있으며 "Not Installed"로 표시된 플랫폼 중 설치를 원하는 플랫폼 이름 앞의 체크박스를 체크해서 설치 항목을 선택할 수 있니다.
+- 컴퓨터에 설치된 플랫폼은 Status 부분이 "Installed"로 표시되어 있으며 "Not Installed"로 표시된 플랫폼 중 설치를 원하는 플랫폼 이름 앞의 체크박스를 체크해서 설치 항목을 선택할 수 있다.
+
+![img](https://190938973-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa4oGyVd5h5iQeplBqkqY%2Fuploads%2F94ZKy16L9t2RJvTy3MMD%2Fimage.png?alt=media&token=59966cfe-c9f8-4637-acad-273678bde688)
 
 ### SDK Tools
 
-- 
+- 안드로이드에서 사용할 수 있는 도구(에뮬레이터, 디버거 등)의 목록을 확인할 수 있다.
 
-  안드로이드에서 사용할 수 있는 도구(에뮬레이터, 디버거 등)의 목록을 확인할 수 있습니다.
+![img](https://190938973-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa4oGyVd5h5iQeplBqkqY%2Fuploads%2F0r7q5nDF3oEajaDIdTBS%2Fimage.png?alt=media&token=6ab5e045-e931-4680-a8d1-53cc08ec9f42)
 
-- 
+- Android SDK Build-Tools: 리소스 아이디를 가지고 있는 R 파일을 생성하고 설치 파일인 APK 파일을 최적화 하는 도구이다. 자바 바이트코드(Java Bytecode)를 달빅 바이트코드(Dalvik Bytecode)로 변환하는 도구도 포함되고 있다.
 
-  Android SDK Build-Tools: 리소스 아이디를 가지고 있는 R 파일을 생성하고 설치 파일인 APK 파일을 최적화 하는 도구입니다. 자바 바이트코드(Java Bytecode)를 달빅 바이트코그(Dalvik Bytecode)로 변환하는 도구도 포함되고 있습니다.
+- Android Emulator: 가상의 스마트폰 환경으로 앱을 설치하고 테스트할 수 있다.
 
-- 
+- Android SDK Platform-Tools: 에뮬레이터와 스마트폰에 연결하기 위한 ADB(Android Debug Bridge)라는 도구와 성능 분석 도구인 Systrace가 제공된다.
 
-  Android Emulator: 가상의 스마트폰 환경으로 앱을 설치하고 테스트할 수 있습니다.
-
-- 
-
-  Android SDK Platform-Tools: 에뮬레이터와 스마트폰에 연결하기 위한 ADB(Android Debug Bridge)라는 도구와 성능 분석 도구인 Systrace가 제공됩니다.
-
-- 
-
-  Intel x86 Emulator Accelerator(HAXM installer): 에뮬레이터의 처리 속도를 빠르게 해주는 하드웨어 가속기입니다. 설치되어 있지 않으면 에뮬레이터를 사용할 수 없을 정도로 느려질 수 있습니다.
+- Intel x86 Emulator Accelerator(HAXM installer): 에뮬레이터의 처리 속도를 빠르게 해주는 하드웨어 가속기이다. 설치되어 있지 않으면 에뮬레이터를 사용할 수 없을 정도로 느려질 수 있다.
 
 ### SDK Update Sites
 
