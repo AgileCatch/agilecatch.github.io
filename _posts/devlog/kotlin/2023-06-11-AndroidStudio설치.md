@@ -16,7 +16,7 @@ categories :
 
 ---
 
-# 1 안드로이드 스튜디오 설치/시작
+# 4 안드로이드 스튜디오 설치/시작
 
 안드로이드 스튜디오를 설치하고 안드로이드 스튜디오가 어떻게 구성되어 있는지 알아보자!
 
@@ -155,9 +155,9 @@ Name을 MyFirstApplication이라고 지정한 예이라고 지정한 예
 
 - 그래서 프로그래머는 필요에 따라 실제 디렉터리 뷰를 열어서 사용하기도 하고, 기본 구조인 Android 뷰를 사용하기도 한다.
 
-- 안드로이드 스튜디오에서 실제 디렉터리 뷰를 보기 위해서는 Project를 선택합니다.
+- 안드로이드 스튜디오에서 실제 디렉터리 뷰를 보기 위해서는 Project를 선택한다.
 
-- 안드로이드 스튜디오 좌측 상단에는 파일 탐색기 모양의 프로젝트 관리 영역이 있습니다. 기본적으로 Android가 선택되어 있고 클릭하면 선택할 수 있는 뷰의 목록이 펼쳐진다.
+- 안드로이드 스튜디오 좌측 상단에는 파일 탐색기 모양의 프로젝트 관리 영역이 있다. 기본적으로 Android가 선택되어 있고 클릭하면 선택할 수 있는 뷰의 목록이 펼쳐진다.
 
 ![img](https://190938973-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa4oGyVd5h5iQeplBqkqY%2Fuploads%2FRSQc27uT4LC39SXOyFtX%2Fimage.png?alt=media&token=a4dce4b3-ea02-4b20-8559-0351b7466d35)
 
