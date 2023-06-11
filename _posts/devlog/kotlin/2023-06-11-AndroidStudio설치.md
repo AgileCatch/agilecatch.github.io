@@ -22,13 +22,13 @@ categories :
 
 
 
-[TOC]
+
 
 
 
 ## 1) 파일 다운로드 및 설치하기
 
-- 안드로이드 스튜디오 홈페이지(https://djdramas-organization.gitbook.io/android/chapter-02/1)에 접속해서 Download Android Studio Flamingo 버튼을 클릭해 다운로드 한다.
+- 안드로이드 스튜디오 홈페이지(<a href="https://djdramas-organization.gitbook.io/android/chapter-02/1">https://djdramas-organization.gitbook.io/android/chapter-02/1)</a>에 접속해서 Download Android Studio Flamingo 버튼을 클릭해 다운로드 한다.
 
 ![img](https://190938973-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa4oGyVd5h5iQeplBqkqY%2Fuploads%2FwH10Kc2062g5lzhx37kv%2Fimage.png?alt=media&token=2c84ed92-0638-4624-84b6-4547f2f60347)
 
