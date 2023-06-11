@@ -16,8 +16,8 @@ author1:
   picture:
     path:            /assets/img/me/me4.jpg
     avatar:
-    width: 150
-    height: 200
+    width: auto
+    height: auto
 
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
