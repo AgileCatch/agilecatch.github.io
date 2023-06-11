@@ -2,15 +2,15 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              YeongHyeon Kim
+  name:                  YeongHyeon Kim
   email:             agilecatch@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:            |
-                안드로이드 개발자 - AgileCatch's devlog
+        안드로이드 개발자 - AgileCatch's devlog
     
-                "Building the future, one line of code at a time."
+        "Building the future, one line of code at a time."
 
   # This photo will be used in the about section
   picture:
