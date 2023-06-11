@@ -133,122 +133,72 @@ Name을 MyFirstApplication이라고 지정한 예이라고 지정한 예
 
 ### SDK Update Sites
 
-- 
+- SDK Update Sites 탭에는 필요한 도구를 다운로드할 수 있는 웹 사이트 주소가 등록되어 있다.
 
-  SDK Update Sites 탭에는 필요한 도구를 다운로드할 수 있는 웹 사이트 주소가 등록되어 있습니다.
+- 필요에 따라 다른 주소를 등록할 수 있다.
 
-- 
+- 수정이 있으면 Apply를 클릭하고 없으면 OK를 클릭해서 창을 닫는다.
 
-  필요에 따라 다른 주소를 등록할 수 있습니다.
-
-- 
-
-  수정이 있으면 Apply를 클릭하고 없으면 OK를 클릭해서 창을 닫습니다.
-
-## 프로젝트 구조 이해하기
-
-- 
-
-  안드로이드 앱을 만들기 위해서는 프로젝트를 생성해야 합니다.
-
-- 
-
-  프로젝트(Project)는 소스 코드와 이미지, 음악, 텍스트 파일 등의 리소스를 체계적으로 관리하는 최상위 디렉터리입니다.
-
-- 
-
-  대부분의 통합 개발 환경은 필요에 따라 프로젝트 내부에 생성되는 실제 디렉터리 구조를 재배열해서 보여주는데, 안드로이드 스튜디오도 동일한 기능을 제공합니다.
-
-- 
-
-  기본적으로 안드로이드 스튜디오 화면에 보이는 디렉터리의 구조를 실제 파일 탐색기나 파인더로 열어보면 그 구조가 완전히 다릅니다.
-
-- 
-
-  그래서 프로그래머는 필요에 따라 실제 디렉터리 뷰를 열어서 사용하기도 하고, 기본 구조인 Android 뷰를 사용하기도 합니다.
-
-- 
-
-  안드로이드 스튜디오에서 실제 디렉터리 뷰를 보기 위해서는 Project를 선택합니다.
-
-- 
-
-  안드로이드 스튜디오 좌측 상단에는 파일 탐색기 모양의 프로젝트 관리 영역이 있습니다. 기본적으로 Android가 선택되어 있고 클릭하면 선택할 수 있는 뷰의 목록이 펼쳐집니다.
+![img](https://190938973-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa4oGyVd5h5iQeplBqkqY%2Fuploads%2F6yBRwaLPjBqVqCqJTJRZ%2Fimage.png?alt=media&token=aba9b3c4-8139-4a0c-8342-cd80a5b4a349)
 
 
+
+## 5) 프로젝트 구조 이해하기
+
+- 안드로이드 앱을 만들기 위해서는 프로젝트를 생성해야 한다.
+
+- 프로젝트(Project)는 소스 코드와 이미지, 음악, 텍스트 파일 등의 리소스를 체계적으로 관리하는 최상위 디렉터리이다.
+
+- 대부분의 통합 개발 환경은 필요에 따라 프로젝트 내부에 생성되는 실제 디렉터리 구조를 재배열해서 보여주는데, 안드로이드 스튜디오도 동일한 기능을 제공한다.
+
+- 기본적으로 안드로이드 스튜디오 화면에 보이는 디렉터리의 구조를 실제 파일 탐색기나 파인더로 열어보면 그 구조가 완전히 다르다.
+
+- 그래서 프로그래머는 필요에 따라 실제 디렉터리 뷰를 열어서 사용하기도 하고, 기본 구조인 Android 뷰를 사용하기도 한다.
+
+- 안드로이드 스튜디오에서 실제 디렉터리 뷰를 보기 위해서는 Project를 선택합니다.
+
+- 안드로이드 스튜디오 좌측 상단에는 파일 탐색기 모양의 프로젝트 관리 영역이 있습니다. 기본적으로 Android가 선택되어 있고 클릭하면 선택할 수 있는 뷰의 목록이 펼쳐진다.
+
+![img](https://190938973-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa4oGyVd5h5iQeplBqkqY%2Fuploads%2FRSQc27uT4LC39SXOyFtX%2Fimage.png?alt=media&token=a4dce4b3-ea02-4b20-8559-0351b7466d35)
 
 ### Android 뷰의 구조
 
-- 
+- Android 뷰는 안드로이드 개발을 편하게 하기 위해 재배치한 가상의 디렉터리 구조를 보여준다.
 
-  Android 뷰는 안드로이드 개발을 편하게 하기 위해 재배치한 가상의 디렉터리 구조를 보여줍니다.
+- 크게 app과 Gradle Scripts로 구성되는데 app에는 코딩하면서 생성한 모든 파일이 저장되고, Gradle Scripts에는 빌드에 필요한 설정 정보들이 저장된다.
 
-- 
+![img](https://190938973-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa4oGyVd5h5iQeplBqkqY%2Fuploads%2FS3hgGKDQGiAkNI2TnCAY%2Fimage.png?alt=media&token=7ab10218-4f6c-4059-aa74-79ecca94dddd) 
 
-  크게 app과 Gradle Scripts로 구성되는데 app에는 코딩하면서 생성한 모든 파일이 저장되고, Gradle Scripts에는 빌드에 필요한 설정 정보들이 저장됩니다.
+- 위 그림에서 각 디렉터리는 다음과 같다.
 
- 
+  - manifest: 설치 관련 정보 디렉터리
 
-- 
+  - java: 소스 코드 디렉터리
 
-  위 그림에서 각 디렉터리는 다음과 같습니다.
+  - res: 이미지, 레이아웃, MP3 등의 리소스 디렉터리
 
-  - 
-
-    manifest: 설치 관련 정보 디렉터리
-
-  - 
-
-    java: 소스 코드 디렉터리
-
-  - 
-
-    res: 이미지, 레이아웃, MP3 등의 리소스 디렉터리
-
-  - 
-
-    Gradle Scripts: 빌드 관련 설정 정보 디렉터리
+  - Gradle Scripts: 빌드 관련 설정 정보 디렉터리
 
 ### Project 뷰의 구조
 
-- 
+- Project 뷰는 실제 디렉터리의 구조를 그대로 보여준다.
 
-  Project 뷰는 실제 디렉터리의 구조를 그대로 보여줍니다.
+- 이미지를 추가하거나 다양한 화면 크기를 처리하는 작업 등의 리소르를 변경할 때 Project 뷰를 전환해서 작업하는 것이 좋다.
 
-- 
+![img](https://190938973-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa4oGyVd5h5iQeplBqkqY%2Fuploads%2F2eJS3xVoYAjh0ZyJpQAh%2Fimage.png?alt=media&token=1ef76c4d-9ef3-416a-b903-995f72600c84)
 
-  이미지를 추가하거나 다양한 화면 크기를 처리하는 작업 등의 리소르를 변경할 때 Project 뷰를 전환해서 작업하는 것이 좋습니다.
+- 위 그림에서 주요 디렉터리 및 파일은 다음과 같다.
 
+  - app: 앱과 관련된 모든 소스(코드, 라이브러리, 이미지 등) 디렉터리
 
+  - src: 내가 만든 소스(코드, 레이아웃, 이미지 등)가 있는 디렉터리
 
-- 
+  - java: 소스 코드가 있는 디렉터리(아직 java로 되어 있습니다.)
 
-  위 그림에서 주요 디렉터리 및 파일은 다음과 같습니다.
+  - res: 이미지, 레이아웃, MP3 등의 리소스 디렉터리
 
-  - 
+  - AndroidManifest.xml: 설치 정보 파일
 
-    app: 앱과 관련된 모든 소스(코드, 라이브러리, 이미지 등) 디렉터리
+  - build.gradle: 빌드 정보 파일
 
-  - 
-
-    src: 내가 만든 소스(코드, 레이아웃, 이미지 등)가 있는 디렉터리
-
-  - 
-
-    java: 소스 코드가 있는 디렉터리(아직 java로 되어 있습니다.)
-
-  - 
-
-    res: 이미지, 레이아웃, MP3 등의 리소스 디렉터리
-
-  - 
-
-    AndroidManifest.xml: 설치 정보 파일
-
-  - 
-
-    build.gradle: 빌드 정보 파일
-
-- 
-
-  Project 뷰로 보는 실제 디렉터리의 구조는 Android 뷰로 보는 것보다 훨씬 복잡한 구조로 되어 있습니다. 그래서 꼭 필요할 때를 제외하고, 보통 작업할 때는 Android 뷰로 보는 것이 더 효율적입니다!
+- Project 뷰로 보는 실제 디렉터리의 구조는 Android 뷰로 보는 것보다 훨씬 복잡한 구조로 되어 있다. 그래서 꼭 필요할 때를 제외하고, 보통 작업할 때는 Android 뷰로 보는 것이 더 효율적이다!
