@@ -26,103 +26,94 @@ categories :
 
 
 
-## 파일 다운로드 및 설치하기
+## 1) 파일 다운로드 및 설치하기
 
 - 안드로이드 스튜디오 홈페이지(https://djdramas-organization.gitbook.io/android/chapter-02/1)에 접속해서 Download Android Studio Flamingo 버튼을 클릭해 다운로드 한다.
 
 ![img](https://190938973-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa4oGyVd5h5iQeplBqkqY%2Fuploads%2FwH10Kc2062g5lzhx37kv%2Fimage.png?alt=media&token=2c84ed92-0638-4624-84b6-4547f2f60347)
 
-- 
+- 약관에 동의한 뒤 Windows는 단순히 다운로드, Mac은 Chip에 맞게 알맞은 버전을 다운로드 한다.
 
-  약관에 동의한 뒤 Windows는 단순히 다운로드, Mac은 Chip에 맞게 알맞은 버전을 다운로드 합니다.
+![img](https://190938973-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa4oGyVd5h5iQeplBqkqY%2Fuploads%2Fudjit8O49xhBzyLBP8Gy%2Fimage.png?alt=media&token=f45f025c-8c63-4afe-ad37-6f457cd19430)
 
-- 
+- 다운로드가 완료되면 실행 파일을 열어 설치해준다.
 
-  다운로드가 완료되면 실행 파일을 열어 설치해줍니다.
+![img](https://190938973-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa4oGyVd5h5iQeplBqkqY%2Fuploads%2F6lc7l79a4ApWc7fmeBDv%2Fimage.png?alt=media&token=6d6c57dd-c772-4f82-9ba6-eb8552d7a784)
 
-## 안드로이드 스튜디오 시작하기
+![img](https://190938973-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa4oGyVd5h5iQeplBqkqY%2Fuploads%2FGOAUbiOOB7ZCZp7pregc%2Fimage.png?alt=media&token=b6aa0048-aee2-41b6-ab3c-bd377fa36c4b)
 
-- 
+![img](https://190938973-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa4oGyVd5h5iQeplBqkqY%2Fuploads%2FVEXT5UUlFjlIFs6i64vE%2Fimage.png?alt=media&token=32273508-af7c-4843-a2e3-bb2ef027e9c2)
 
-  안드로이드 스튜디오 및 관련 도구의 데이터 수집을 동의하는 지를 물어봅니다.
 
-- 
 
-  동의하면 "Send usage statistics to Goole", 동의하지 않으면 "Don't send"를 클릭합니다.
+## 2) 안드로이드 스튜디오 시작하기
 
-- 
+![img](https://190938973-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa4oGyVd5h5iQeplBqkqY%2Fuploads%2FSX5o92VQc433scxC1hp2%2Fimage.png?alt=media&token=8524dc13-1859-4364-b5f9-69c323463cab)
 
-  화면의 테마를 선택하고 Next를 클릭합니다.
+- 안드로이드 스튜디오 및 관련 도구의 데이터 수집을 동의하는 지를 물어본다.
+- 동의하면 "Send usage statistics to Goole", 동의하지 않으면 "Don't send"를 클릭!
 
-- 
+![img](https://190938973-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa4oGyVd5h5iQeplBqkqY%2Fuploads%2Fqgzn67CiSlpE9h2YxdEj%2Fimage.png?alt=media&token=1a89521a-058a-46f5-9559-37f920e57547)
 
-  추가 구성요소를 설치합니다.
+- 화면의 테마를 선택하고 Next를 클릭한다.
 
-- 
+![img](https://190938973-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa4oGyVd5h5iQeplBqkqY%2Fuploads%2FnKsSxce7rC6bxvrj1O4k%2Fimage.png?alt=media&token=45af6b08-4fbf-4d72-af0f-9d3759258386)
 
-  모든 설치가 완료되면 안드로이드 스튜디오 시작 화면이 나옵니다.
+- 추가 구성요소를 설치한다.
 
-- 
+![img](https://190938973-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa4oGyVd5h5iQeplBqkqY%2Fuploads%2FvWljr1wwFAwCTISx1KwW%2Fimage.png?alt=media&token=ec9ac26b-6a26-44d8-a96d-b15c3d9efa92)
 
-  New Project를 클릭하고 Empty Views Activity를 클릭하여 프로젝트를 생성합니다.
+- 모든 설치가 완료되면 안드로이드 스튜디오 시작 화면이 나온다.
 
-- 
+![img](https://190938973-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa4oGyVd5h5iQeplBqkqY%2Fuploads%2FppMwlxwhxbjwoP1KpscH%2Fimage.png?alt=media&token=6d946171-77d5-4232-a12f-bf53c6302b1c)
 
-  프로젝트를 설정하는 화면입니다. Name에 원하는 이름을 입력하고 "Finish"를 클릭하면 프로젝트 생성이 완료됩니다.
+- New Project를 클릭하고 Empty Views Activity를 클릭하여 프로젝트를 생성한다.
+
+![img](https://190938973-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa4oGyVd5h5iQeplBqkqY%2Fuploads%2FjFqoamPgUDTiyWGzgXWZ%2Fimage.png?alt=media&token=cd4a5e0e-e36a-482f-a296-44cd66c484c3)
+
+- 프로젝트를 설정하는 화면이다. Name에 원하는 이름을 입력하고 "Finish"를 클릭하면 프로젝트 생성이 완료된다.
+
+![img](https://190938973-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa4oGyVd5h5iQeplBqkqY%2Fuploads%2FGxvpZkSTzo53dwsLiV0G%2Fimage.png?alt=media&token=641f2ff9-74eb-4200-9d07-3a49cdb66c46)
 
 Name을 MyFirstApplication이라고 지정한 예이라고 지정한 예
 
-## 안드로이드 스튜디오 익숙해지기
 
-- 
 
-  **툴바**: 앱 및 에뮬레이터 실행, SDK 다운로드 등 다양한 작업을 수행할 수 있습니다.
+## 3) 안드로이드 스튜디오 익숙해지기
 
-- 
+![img](https://190938973-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa4oGyVd5h5iQeplBqkqY%2Fuploads%2Fjgr6n6EDxPXENf4SSMi4%2Fimage.png?alt=media&token=3e08d6cd-b53e-42ec-8c13-53e9b057b57c)
 
-  **도구창 모음**: 안드로이드 스튜디오 창의 둘레에 있으며 개별 도구 창을 펼치거나 접을 수 있게 해줍니다.
+- **툴바**: 앱 및 에뮬레이터 실행, SDK 다운로드 등 다양한 작업을 수행할 수 있다.
 
-- 
+- **도구창 모음**: 안드로이드 스튜디오 창의 둘레에 있으며 개별 도구 창을 펼치거나 접을 수 있게 해준다.
 
-  **도구 창**: 마치 윈도우의 탐색기나 맥의 파인더처럼 프로젝트에 필요한 소스 파일, 설정 파일, 이미지 파일 등과 디렉터리를 관리할 수 있습니다. 또한 로그 보기, 버전 관리, 터미널 실행 등의 특정 도구를 사용할 수 있으며 도구 창 아래쪽의 탭을 클릭하면 해당 도구를 열 수 있고, 오른쪽 위의 닫기 버튼을 클릭하면 창을 닫을 수 있습니다.
+- **도구 창**: 마치 윈도우의 탐색기나 맥의 파인더처럼 프로젝트에 필요한 소스 파일, 설정 파일, 이미지 파일 등과 디렉터리를 관리할 수 있다. 또한 로그 보기, 버전 관리, 터미널 실행 등의 특정 도구를 사용할 수 있으며 도구 창 아래쪽의 탭을 클릭하면 해당 도구를 열 수 있고, 오른쪽 위의 닫기 버튼을 클릭하면 창을 닫을 수 있다.
 
-- 
+- **편집기 창**: 코드를 작성하고 수정할 수 있다. 파일 유형에 따라 편집기가 바뀔 수 있다.
 
-  **편집기 창**: 코드를 작성하고 수정할 수 있습니다. 파일 유형에 따라 편집기가 바뀔 수 있습니다.
-
-- 
-
-  **상태 표시줄**: 프로젝트와 안드로이드 스튜디오의 상태를 표시하며 경고 또는 기타 필요한 메시지도 표시합니다.
-
-## 안드로이드 SDK 기본 설정 확인하기
-
-- 
-
-  안드로이드 스튜디오는 편집을 편하게 해주는 도구일 뿐, 실제 컴파일러와 같은 개발 환경은 모두 SDK에 있습니다. 안드로이드 스튜디오는 이 SDK를 사용해서 최종 설치 파일을 만들어줍니다.
-
-1. 1.
-
-   (윈도우) 메인 메뉴에서 File - Settings를 선택합니다. (맥) Android Studio - Preferences
+- **상태 표시줄**: 프로젝트와 안드로이드 스튜디오의 상태를 표시하며 경고 또는 기타 필요한 메시지도 표시한다.
 
 
 
-1. 2.
+## 4) 안드로이드 SDK 기본 설정 확인하기
 
-   좌측 메뉴에서 Appearance & Behavior > System Settings > Android SDK를 클릭하면 Android SDK Location에서 설치 경로를 확인할 수 있습니다.
+- 안드로이드 스튜디오는 편집을 편하게 해주는 도구일 뿐, 실제 컴파일러와 같은 개발 환경은 모두 SDK에 있다. 안드로이드 스튜디오는 이 SDK를 사용해서 최종 설치 파일을 만들어준다.
+
+​	1. (윈도우) 메인 메뉴에서 File - Settings를 선택한다. (맥) Android Studio - Preferences
+
+![img](https://190938973-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa4oGyVd5h5iQeplBqkqY%2Fuploads%2FbSrh1ZubArnHcP2nyJ5x%2Fimage.png?alt=media&token=f65c5829-4e3f-4770-aecb-bf93c145a6e5)
+
+​	2. 좌측 메뉴에서 Appearance & Behavior > System Settings > Android SDK를 클릭하면 Android SDK Location에서 설치 경로를 확인할 수 있다.
+
+![img](https://190938973-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fa4oGyVd5h5iQeplBqkqY%2Fuploads%2F5EaqGvoQcOK93ZhpuwkT%2Fimage.png?alt=media&token=ea48e3d4-f5dd-4f01-8ad7-bda9d2c5c722)
 
 ### SDK Platforms
 
-- 
+- 현재 설치된 안드로이드 스튜디오의 기본 설정을 확인해보겠다.
 
-  현재 설치된 안드로이드 스튜디오의 기본 설정을 확인해보겠습니다.
+- SDK Platforms 탭을 클릭하면 소스 코드를 빌드할 때 사용하는 플랫폼이 버전별로 표시된 것을 확인할 수 있다.
 
-- 
-
-  SDK Platforms 탭을 클릭하면 소스 코드를 빌드할 때 사용하는 플랫폼이 버전별로 표시된 것을 확인할 수 있습니다.
-
-- 
-
-  컴퓨터에 설치된 플랫폼은 Status 부분이 "Installed"로 표시되어 있으며 "Not Installed"로 표시된 플랫폼 중 설치를 원하는 플랫폼 이름 앞의 체크박스를 체크해서 설치 항목을 선택할 수 있습니다.
+- 컴퓨터에 설치된 플랫폼은 Status 부분이 "Installed"로 표시되어 있으며 "Not Installed"로 표시된 플랫폼 중 설치를 원하는 플랫폼 이름 앞의 체크박스를 체크해서 설치 항목을 선택할 수 있니다.
 
 ### SDK Tools
 
