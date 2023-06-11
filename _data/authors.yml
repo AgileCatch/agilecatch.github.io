@@ -20,7 +20,14 @@ author1:
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
       1x:            /assets/img/me/me4.jpg
+      avatar: 
+        width: 230
+        height: 330
+
       2x:            /assets/img/me/me4.jpg
+      avatar: 
+        width: 230
+        height: 330
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
