@@ -3,7 +3,8 @@ layout: about
 image: /assets/img/me/me4.jpeg
 description: >
   Adroid 개발자 김영현 입니다. 
-hide_description: true
+
+hide_description: false
 
 ---
 
@@ -12,6 +13,8 @@ hide_description: true
 <!--author-->
 
 * * *
+
+
 <center>
 <span style="font-size:170%;font-weight:bold;">
 Yeonghyeon Kim</span>
@@ -77,7 +80,7 @@ Yeonghyeon Kim</span>
 ---
 -Languages : Java, Kotlin, C, C++ <br/>
 -Development Tools: Android Studio, VS Code, Visual Studio<br/>
-Frameworks: Flutter<br/>
+-Frameworks: Flutter<br/>
 -Collaboration Platforms: GitHub<br/>
 -Documentation Tools: Typora<br/>
 -Certification : 정보처리기사,  Adobe Premiere Pro CS6, Adobe Photoshop CS6
