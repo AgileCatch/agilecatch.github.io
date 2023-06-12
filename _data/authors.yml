@@ -12,6 +12,7 @@ author1:
     
            "Building the future, one line of code at a time."
 
+
   # This photo will be used in the about section
   picture:
     path:            /assets/img/me/me4.jpg
@@ -28,8 +29,8 @@ author1:
   # Rearrange to change the order in which they appear
   social:
     #twitter:         <username>
-    github:          AgileCatch
-    email:           agilecatch@gmail.com
+    github: AgileCatch
+    email:  agilecatch@gmail.com
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -40,7 +41,7 @@ author1:
     # spotify:         <user>/<number>
     # soundcloud:      <username>
     # lastfm:          <username>
-    instagram:       molang___2
+    instagram:  molang___2
     # flickr:          <string@string>
     # 500px:           <username>
     # dribbble:        <username>
