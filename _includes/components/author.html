@@ -9,6 +9,12 @@
     {{ include.heading | default:author.name }}
   </{{ heading_tag }}>
 
+  <style>
+    .centered-text {
+        text-align: center;
+    }
+  </style>
+
 <!--게시물 밑에 작성자 -->
     <br/>
     <!-- 프로필 이미지 -->
@@ -16,7 +22,7 @@
             {% include_cached components/hy-img.html class="avatar" img=author.picture alt=author.name width="230" height="330" %}
         {% endif %}
     <!-- 글 -->
-    <div class="author-body-description" >
+    <div class="author-body-description centered-text" >
         <span style = " font-size:1.4em;  color: rgb(0, 0, 0);"><strong>{{ author.name | markdownify }}</strong></span>
         <b style = "font-size:0.8em; color: rgb(141, 141, 141);">{{ author.about | markdownify }}</b>
     </div>
