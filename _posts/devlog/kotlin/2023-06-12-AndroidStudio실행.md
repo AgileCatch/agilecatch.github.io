@@ -14,7 +14,6 @@ categories :
  - devlog	
  - kotlin
 
-
 ---
 
 # 5 앱을 만들어 실행하기
@@ -25,8 +24,6 @@ categories :
 
 * toc
 {:toc}
-
-
 
 
 ---
