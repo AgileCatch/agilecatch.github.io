@@ -12,14 +12,10 @@ hide_description: true
 
 <!--author-->
 
-* * *
-
 <center>
 <span style="font-size:170%;font-weight:bold;">
 Yeonghyeon Kim</span>
 </center>
-<center>MAJOR : SOFTWARE ENGINEER</center>
-<center>Korean University</center>
 
 
 

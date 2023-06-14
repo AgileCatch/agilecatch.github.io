@@ -43,8 +43,9 @@ logo:                  /assets/img/me/me.jpg
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                YeongHyeon Kim
-  email:               agilecatch@gmail.com
+  name:                <YeongHyeon> <Kim>
+  email:               <agilecatch@gmail.com>
+  instagram:           <https://www.instagram.com/molang___2/>
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
