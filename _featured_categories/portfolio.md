@@ -46,7 +46,7 @@ Yeonghyeon Kim</span>
 
 ## Project
 ---
-* **AndroidStudio <폐지모아> App**
+* <strong><a href="https://www.youtube.com/watch?v=-ofj2vTvH0Q/">AndroidStudio <폐지모아> App </a></strong></u>
 <!--링크추가 방법
 <u><strong><a href="https://www.youtube.com/watch?v=-ofj2vTvH0Q/">The 15th HANSUNG Engineering Competitive Exhibition[PM] 2019 </a></strong></u>-->
 
@@ -54,14 +54,13 @@ Yeonghyeon Kim</span>
 
 ## Awards
 ---
-<u><strong>2022 빛가람에너지밸리 소프트웨어 소프트웨어 작품 경진대회[PM] 2019 </strong></u>
+<u><strong>2022 빛가람에너지밸리 소프트웨어 소프트웨어 작품 경진대회 </strong></u>
 
 - 주최, 주관: 한전KDN(주)
 
 - Encouragement Award
 
-
-<u><strong>The 14th  IT Festival S/W Idea Competition[PM] 2019 </strong></u>
+<u><strong>The 14th  IT Festival S/W Idea Competition 2019 </strong></u>
 
 - 주최, 주관: 조선대학교
 
