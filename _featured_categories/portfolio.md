@@ -4,7 +4,7 @@ image: /assets/img/me/me4.jpeg
 description: >
   Adroid 개발자 김영현 입니다. 
 
-hide_description: false
+hide_description: true
 
 ---
 
