@@ -23,6 +23,7 @@
         {% if author.picture %}
             {% include_cached components/hy-img.html class="avatar" img=author.picture alt=author.name width="230" height="330" %}
         {% endif %}
+        
     <!-- 글 -->
     <div class="author-body-description centered-text" >
         <span style = " font-size:1.4em;  color: rgb(0, 0, 0);"><strong>{{ author.name | markdownify }}</strong></span>
