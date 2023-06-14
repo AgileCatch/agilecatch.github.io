@@ -14,7 +14,6 @@ hide_description: true
 
 * * *
 
-
 <center>
 <span style="font-size:170%;font-weight:bold;">
 Yeonghyeon Kim</span>
