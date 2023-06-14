@@ -1,6 +1,12 @@
 {% assign plugins = site.plugins | default:site.gems %}
 
-<div class="author mt4" style="margin: 10px;">
+<style>
+    .centered-text2 {
+        text-align: center;
+    }
+  </style>
+
+<div class="author mt4 centered-text2" style="margin: 10px;">
   {% assign author = include.author %}
 
   {% assign heading_tag = include.heading_tag | default:'h2' %}
@@ -23,7 +29,7 @@
         {% if author.picture %}
             {% include_cached components/hy-img.html class="avatar" img=author.picture alt=author.name width="230" height="330" %}
         {% endif %}
-        
+
     <!-- 글 -->
     <div class="author-body-description centered-text" >
         <span style = " font-size:1.4em;  color: rgb(0, 0, 0);"><strong>{{ author.name | markdownify }}</strong></span>
