@@ -1,11 +1,9 @@
 ---
-image: /assets/img/me/me4.jpeg
 layout: about
+image: /assets/img/me/me4.jpeg
 description: >
   Adroid 개발자 김영현 입니다. 
-
 hide_description: true
-
 ---
 
 # Profile
@@ -46,7 +44,7 @@ Yeonghyeon Kim</span>
 
 ## Project
 ---
-* <strong><a href="https://www.youtube.com/watch?v=-ofj2vTvH0Q/">AndroidStudio <폐지모아> App </a></strong></u>
+* <strong><a href="https://agilecatch.github.io/devlog/project/2023-06-14-%ED%8F%90%EC%A7%80%EB%AA%A8%EC%95%84/">AndroidStudio <폐지모아> App </a></strong></u>
 <!--링크추가 방법
 <u><strong><a href="https://www.youtube.com/watch?v=-ofj2vTvH0Q/">The 15th HANSUNG Engineering Competitive Exhibition[PM] 2019 </a></strong></u>-->
 
