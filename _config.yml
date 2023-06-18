@@ -59,7 +59,9 @@ menu:
      - title :          Kotlin
        url :            /kotlin/
      - title :          Fixit
-       url :            /fixit/  
+       url :            /fixit/
+     - title :          Flutter
+       url :            /flutter/    
   - title:             Project
     url:               /project/
   - title:             Portfolio
