@@ -1,7 +1,7 @@
 ---
 layout: list
 category: devlog
-bigtitle: Flutter
+bigtitle: 플러터와 다트
 slug: flutter
 description: >
     Programming Puzzles    
