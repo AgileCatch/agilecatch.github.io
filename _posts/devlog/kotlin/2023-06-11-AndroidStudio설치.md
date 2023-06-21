@@ -22,15 +22,9 @@ categories :
 
 
 
-
-
 * toc
 {:toc}
-
-
 ---
-
-
 
 
 
