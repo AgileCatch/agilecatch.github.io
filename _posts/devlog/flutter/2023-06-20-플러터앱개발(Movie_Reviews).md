@@ -14,7 +14,6 @@ categories :
  - devlog	
  - flutter
 
-
 ---
 
 # [개발일지] Movie_Reviews
