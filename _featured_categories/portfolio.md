@@ -44,7 +44,7 @@ Yeonghyeon Kim</span>
 
 ## Project
 ---
-* > **[AndroidStudio <폐지모아> App](https://agilecatch.github.io/devlog/project/2023-06-14-%ED%8F%90%EC%A7%80%EB%AA%A8%EC%95%84/)**
+* > <u>[AndroidStudio <폐지모아> App](https://agilecatch.github.io/devlog/project/2023-06-14-%ED%8F%90%EC%A7%80%EB%AA%A8%EC%95%84/)</u>
 
   <!--링크추가 방법
   <u><strong><a href="https://www.youtube.com/watch?v=-ofj2vTvH0Q/">The 15th HANSUNG Engineering Competitive Exhibition[PM] 2019 </a></strong></u>-->
