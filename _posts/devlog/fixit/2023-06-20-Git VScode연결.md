@@ -27,3 +27,15 @@ categories :
 {:toc}
 ---
 
+1. 내가연결하고싶은 파일이름으로 깃허브 레포지토리 생성
+
+Public 체크!
+
+ Add a README file 체크!
+
+2. GitHub Desktop에들어가 새로고침후 연결하기
+
+
+
+2. 파일이수정되고 커밋이 되는지확인하기
+
