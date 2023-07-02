@@ -1,6 +1,4 @@
 ---
-
-​---
 layout: post
 title: Git_VScode연결
 accent_image: 
