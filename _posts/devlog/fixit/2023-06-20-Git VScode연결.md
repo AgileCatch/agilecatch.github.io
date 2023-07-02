@@ -25,7 +25,5 @@ categories :
 
 * toc
 {:toc}
-
-
 ---
 
