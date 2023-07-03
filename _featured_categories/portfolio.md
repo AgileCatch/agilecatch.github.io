@@ -1,19 +1,15 @@
 ---
 layout: about
 image: /assets/img/me/me4.jpeg
-description: >
-  Adroid 개발자 김영현 입니다. 
 hide_description: true
 ---
 
 # Profile
 
-<!--author-->
-
 ![image-20230616000446050](../assets/img/me/me4.jpg){: width="30%" height="auto" align="left"}
 <center>
 <span style="font-size:170%;font-weight:bold;">
-<br/>Minsu Choo</span>
+<br/>Yeonghyeon Kim</span>
 <span><br/><br/>안드로이드 개발자 -김영현 <br/>
 “Building the future, one line of code at a time.”  <br/><br/><br/></span>
 </center>
