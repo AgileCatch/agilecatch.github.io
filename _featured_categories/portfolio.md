@@ -10,10 +10,14 @@ hide_description: true
 
 <!--author-->
 
+![image-20230616000446050](../assets/img/me/me4.jpg){: width="30%" height="auto" align="left"}
 <center>
 <span style="font-size:170%;font-weight:bold;">
-Yeonghyeon Kim</span>
+<br/>Minsu Choo</span>
+<span><br/><br/>안드로이드 개발자 -김영현 <br/>
+“Building the future, one line of code at a time.”  <br/><br/><br/></span>
 </center>
+
 
 
 
