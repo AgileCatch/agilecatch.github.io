@@ -171,8 +171,6 @@ class BookMarkFragment : Fragment() {
 
 
 
----
-
 ## MainActivity 추가
 
 ```kotlin
