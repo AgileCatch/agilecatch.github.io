@@ -33,7 +33,7 @@ categories :
 
 ---
 
-## activity_main.xml 
+## **activity_main.xml** 
 
 ![activity](../../../assets/img/blog/activity.png)
 
@@ -67,7 +67,7 @@ categories :
 
 ---
 
-## FragmentPageAdapter 파일 생성
+## **FragmentPageAdapter 파일 생성**
 
 ![fragment](../../../assets/img/blog/fragment.png)
 
@@ -108,7 +108,7 @@ class FragmentPageAdapter(
 
 ---
 
-## FragmentPage 생성 
+## **FragmentPage 생성** 
 
 필자는 2개의 스와이프 페이지를 구성하기위해 2개의 Fragment파일을 생성해주었다.
 
@@ -171,7 +171,7 @@ class BookMarkFragment : Fragment() {
 
 
 
-## MainActivity 추가
+## **MainActivity 추가**
 
 ```kotlin
 class MainActivity : AppCompatActivity() {
