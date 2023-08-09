@@ -19,8 +19,6 @@ categories :
 
 * toc
 {:toc}
-
-
 ---
 
 <img src="../../../assets/img/blog/swipe_out.gif" width="30%" height="auto">
@@ -33,7 +31,7 @@ categories :
 
 
 
-
+---
 
 ## activity_main.xml 
 
@@ -66,6 +64,8 @@ categories :
 * 여기서 각자의 **id** 를 지정해주고 잘 기억해두자.
 
 
+
+---
 
 ## FragmentPageAdapter 파일 생성
 
@@ -105,6 +105,8 @@ class FragmentPageAdapter(
 * 이 클래스는 `ViewPager2`와 함께 사용하여 여러 프래그먼트를 페이지로 스와이프하며 표시하는 데 사용된다.
 
 
+
+---
 
 ## FragmentPage 생성 
 
@@ -168,6 +170,8 @@ class BookMarkFragment : Fragment() {
 ---
 
 
+
+---
 
 ## MainActivity 추가
 
