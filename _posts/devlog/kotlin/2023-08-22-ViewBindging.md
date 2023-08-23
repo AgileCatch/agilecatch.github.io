@@ -19,6 +19,8 @@ categories :
 
 # [TIL] View Binding
 
+[TOC]
+
 Kotlin에서는 `findViewById` 대신 여러가지 이유로 뷰 바인딩 사용을권장하고있다.
 
 그이유를 알아보자.
@@ -35,7 +37,7 @@ Kotlin에서는 `findViewById` 대신 여러가지 이유로 뷰 바인딩 사�
 
 공식문서에서는 다음과 같이 설명한다.
 
-##### 💡*View Binding*의 이점
+### 💡*View Binding*의 이점
 
 * **Null Safety**: View Binding을 사용하면 Null Safety가 보장된다.
   * UI 요소를 바인딩할 때 null이 될 가능성이 없으므로 null 체크를 해야하는 상황을 줄일 수 있다.
@@ -70,7 +72,7 @@ android{
 
 ---
 
-### 2)Activity에서 설정
+### 2) Activity에서 설정
 
 ```kotlin
 class MainActivity : AppCompatActivity() {
