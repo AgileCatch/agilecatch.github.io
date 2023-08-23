@@ -325,5 +325,3 @@ class GridviewActivity : AppCompatActivity() {
 ### 📱 결과
 
 ![gridview](../../../assets/img/blog/gridview.png)
-
-이렇게 어댑터를 사용해 만들어봤따!@
