@@ -19,9 +19,10 @@ categories :
 
 # [TIL] Adapter View사용해보기
 
-[TOC]
 
-
+* toc
+{:toc}
+---
 
 ## Adapter View란?
 

@@ -19,7 +19,9 @@ categories :
 
 # [TIL] View Binding
 
-[TOC]
+* toc
+{:toc}
+---
 
 Kotlin에서는 `findViewById` 대신 여러가지 이유로 뷰 바인딩 사용을권장하고있다.
 
