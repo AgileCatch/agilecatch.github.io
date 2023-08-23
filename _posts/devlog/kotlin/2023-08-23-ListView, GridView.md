@@ -24,7 +24,7 @@ categories :
 {:toc}
 ---
 
-## Adapter View란?
+## **Adapter View란?**
 
 * 여러개의 항목을 다양한 형식으로 나열하고 선택할 수 있는뷰이다.
   * **리스트뷰(ListView)는 항목을 수직으로 나열시키는 방식**
@@ -41,7 +41,7 @@ categories :
 
  
 
-## 어댑터 (Adapter) 란?
+## **어댑터 (Adapter) 란?**
 
 * 데이터를 관리하며 **데이터 원본과 어댑터뷰(ListView, GridView) 사이의 중계 역할**이다.
 * 사용자가 어댑터뷰의 특정 위치의 항목을 선택하였을 때, 어댑터뷰는 **선택된 항목, 항목ID, 항목뷰**를 어댑터의 `getItem()`, `getItemId()`,` getView()` 메소드를 통해 얻어와서 이를 **항목선택 이벤트 처리기**에 넘겨준다.
@@ -58,7 +58,7 @@ categories :
 
 
 
-## 어댑터 종류
+## **어댑터 종류**
 
 ### 1) BaseAdapter
 
@@ -86,7 +86,7 @@ categories :
 
 
 
-## 어댑터 객체 생성
+## **어댑터 객체 생성**
 
 ![img](https://teamsparta.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F2044fceb-a75a-4ddc-bcb0-13943ee7cb42%2FUntitled.png?table=block&id=27ca1552-32de-4f13-a58a-07fa0aaad3c3&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=1530&userId=&cache=v2)
 
@@ -96,7 +96,7 @@ categories :
 
 
 
-## 리스트 뷰(ListView)
+## **리스트 뷰(ListView)**
 
 ListView는 어댑터 뷰의 대표 위젯으로서, 복수 개의 항목을 수직으로 표시한다.
 
@@ -183,7 +183,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 
 
 
-## 그리드 뷰(GridView)
+## **그리드 뷰(GridView)**
 
 GridView는 2차원 스크롤 가능한 그리드에 항목을 표시한다.
 그리드뷰를 사용해보자!

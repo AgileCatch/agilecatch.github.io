@@ -27,7 +27,7 @@ Kotlin에서는 `findViewById` 대신 여러가지 이유로 뷰 바인딩 사�
 
 그이유를 알아보자.
 
-## View Binding이란?
+## **View Binding이란?**
 
 * 뷰 바인딩은 뷰와 상호작용하는 코드를 쉽게 해주는 기능이다. 
 * 뷰 바인딩을 허용하면 각 xml레이아웃마다 바인딩 클래스를 자동으로 생성하는데, 레이아웃에 ID가 있는 뷰에 **직접 참조**를 할 수 있다. 
@@ -35,7 +35,7 @@ Kotlin에서는 `findViewById` 대신 여러가지 이유로 뷰 바인딩 사�
 
  
 
-## findViewById 와의 차이점
+## **findViewById 와의 차이점**
 
 공식문서에서는 다음과 같이 설명한다.
 
@@ -52,7 +52,7 @@ Kotlin에서는 `findViewById` 대신 여러가지 이유로 뷰 바인딩 사�
 
 
 
-## 코틀린에서 View Binding 설정방법
+## **코틀린에서 View Binding 설정방법**
 
 ### 1) gradle설정
 
