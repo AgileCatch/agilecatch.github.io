@@ -14,10 +14,9 @@ categories :
  - devlog	
  - kotlin
 
-
 ---
 
-# [TIL] Adapter View사용해보기
+# [TIL] Adapter View(1) 사용해보기
 
 
 * toc
