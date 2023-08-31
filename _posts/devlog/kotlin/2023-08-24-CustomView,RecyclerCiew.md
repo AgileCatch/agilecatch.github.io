@@ -17,7 +17,7 @@ categories :
 
 ---
 
-# [TIL] Adapter View(2) 사용해보기
+# [Kotlin] Adapter View(2) 사용해보기
 
 오늘은 어댑터 사용중 CustomView, RecyclerView를 사용해 볼 것이다.
 

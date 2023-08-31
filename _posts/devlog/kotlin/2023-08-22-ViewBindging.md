@@ -17,7 +17,7 @@ categories :
 ---
 
 
-# [TIL] View Binding
+# [Kotlin] View Binding
 
 * toc
 {:toc}

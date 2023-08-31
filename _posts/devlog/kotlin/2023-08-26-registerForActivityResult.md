@@ -16,7 +16,7 @@ categories :
 
 ---
 
-# [TIL] registerForActivityResult 알아보기
+# [Kotlin] registerForActivityResult 알아보기
 
 
 

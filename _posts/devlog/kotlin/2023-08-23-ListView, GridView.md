@@ -16,7 +16,7 @@ categories :
 
 ---
 
-# [TIL] Adapter View(1) 사용해보기
+# [Kotlin] Adapter View(1) 사용해보기
 
 
 * toc
