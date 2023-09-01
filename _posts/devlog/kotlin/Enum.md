@@ -1,0 +1,1 @@
+enum class 활용

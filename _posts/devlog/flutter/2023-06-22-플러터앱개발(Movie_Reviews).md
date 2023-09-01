@@ -16,5 +16,5 @@ categories :
 
 ---
 
-# [개발일지] Movie_Reviews
+# [WIL] Movie_Reviews
 
