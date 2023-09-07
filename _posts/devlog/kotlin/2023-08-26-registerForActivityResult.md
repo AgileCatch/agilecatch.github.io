@@ -23,8 +23,6 @@ categories :
 
 * toc
 {:toc}
-
-
 ---
 
 ## **registerForActivityResult란?**

@@ -24,8 +24,6 @@ categories :
 
 * toc
 {:toc}
-
-
 ---
 
 ## **CustomView 란?**
