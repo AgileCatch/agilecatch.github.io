@@ -1,0 +1,474 @@
+---
+layout: post
+title: 코틀린 배우기
+image: /assets/img/blog/kotlin.png
+accent_image: 
+  background: url('/assets/img/me/wave3.jpg') center/cover
+  overlay: false
+accent_color: '#fff'
+theme_color: '#fff'
+description: >
+  kotlin start!
+invert_sidebar: true
+categories :
+ - devlog	
+ - kotlin
+
+---
+
+# [TIL] 선발대 4주차 정리
+
+* toc
+{:toc}
+---
+
+## 이번주 과제
+
+- TodoEditActivity를 만들어서 아이템을 **수정**해주세요.
+  * 💡 **힌트** MainActivity에서 TodoAddActivity 실행을 했는데…? 이거를 꼭 MainActivity에서 할 필요가 없다. 아이템을 클릭한 Fragment에서 Activity를 실행해도됨
+  * Q. 아이템을 클릭한 fragment라고 하시면 adapter에서 setonclicklinster해도 되나요? A. 네, adapter에서 리스너를 받아서 fragment에서 TodoEditActivity를 실행시키자
+
+* TodoAddActivity와 TodoEditActivity를 **하나로 합쳐서 관리**하기
+
+  * TodoAddActivity > TodoContentActivity로 변경
+
+  * enum class를 활용하여 TodoContentActivity 진입 Type 설정
+
+  - enum class 활용
+
+    ```
+    enum class TodoContentType {
+        ADD, EDIT
+    }
+    companion object {
+    		fun newIntentForAdd( // 등록
+    				context: Context
+    		) = Intent(context, TodoContentActivity::class.java).apply {
+    				...
+    		}
+    		
+    		fun newIntentForEdit( // 수정
+    				context: Context,
+    				...
+    		) = Intent(context, TodoContentActivity::class.java).apply {
+    				...
+    		}
+    }
+    ```
+
+    * 넘겨 받은 데이터를 EditText에 바인딩
+
+    * 버튼 이름 변경
+
+    - `TodoContentType.ADD`일 경우 “등록”, `TodoContentType.EDIT` 일 경우 “수정”으로 변경
+
+      - “삭제” 버튼 만들기
+
+      - “삭제”를 클릭하면 Dialog가 발생하고 Dialog의 “삭제”를 부르면 TodoFragment의 아이템 삭제
+
+**💡힌트**
+
+- 삭제 버튼을 눌렀을때 setResult 삭제에 필요한 값을 세팅해서 보내야해요.
+- serResult에서 세팅한 값을 실행시킨 런처(`registerForActivityResult`)에서 값을 받아서 아이템 삭제를 하면 돼요.
+
+
+
+## 1) enum class 만들기
+
+- 한 페이지에서 **추가,수정,삭제**를 하기위해  **enum**클래스 생성해주기
+
+  - `name`: enum class를 가져올때 이름으로 가져올수 있음.
+  - `ordinal`: enum class를 가져올때 순서로 가져올 수 있음.
+
+  ```
+  enum class TodoContentType {
+      ADD, EDIT, REMOVE;
+  
+      //name을 가지고 enum class를 가져옴
+      companion object {
+          fun from(name: String?): TodoContentType? {
+              return TodoContentType.values().find {
+                  it.name.uppercase() == name?.uppercase()
+              }
+          }
+      }
+  }
+  
+  fun test(){
+      TodoContentType.ADD.name// 이름으로 가져오기
+      TodoContentType.ADD.ordinal// 0번째 자리로 가져오기
+  }
+  ```
+
+
+
+## 2) TodoContentActivity - 추가,수정
+
+- 기존에 있던 **TodoActivity > TodoContentActivity** 로 변경 후 인텐트 추가
+
+- 추가,수정 인스턴스 만들어주기
+
+  ```
+  companion object {
+  
+          const val EXTRA_TODO_ENTRY_TYPE = "extra_todo_entry_type"
+          const val EXTRA_TODO_POSITION = "extra_todo_position"
+          const val EXTRA_TODO_MODEL = "extra_todo_model"
+  
+          //추가에 대한 인텐트
+          fun newIntentForAdd(
+              context: Context
+          ) = Intent(context, TodoContentActivity::class.java).apply {
+              //이넘 클래스를 네임으로 받아와 다시 변환해줘야 하는 과정이 필요함.
+              putExtra(EXTRA_TODO_ENTRY_TYPE, TodoContentType.ADD.name)
+          }
+  
+          //수정에 대한 인텐트
+          fun newIntentForEdit(
+              context: Context,
+              position: Int,
+              todoModel: TodoModel
+          ) = Intent(context, TodoContentActivity::class.java).apply {
+              putExtra(EXTRA_TODO_ENTRY_TYPE, TodoContentType.EDIT.name)
+              putExtra(EXTRA_TODO_POSITION, position)
+              putExtra(EXTRA_TODO_MODEL, todoModel)
+          }
+      }
+         
+  ```
+
+
+* 엔트리를 받아와 변환해주는 과정
+
+  ```
+  //엔트리 타입 인텐트를 받아와 변환함
+      private val entryType by lazy {
+          TodoContentType.from(intent.getStringExtra(EXTRA_TODO_ENTRY_TYPE))
+      }
+  ```
+
+* 등록 버튼 눌렀을때 처리하기
+
+  * 어떤한 값을 가지고 수정 할 수 있을것인지 생각하기
+  * **Position, item(datamodel)**
+
+  ```
+  submit.setOnClickListener {
+              val intent = Intent().apply {
+                  putExtra(
+                      //등록을 눌렀을때 엔트리타입을 보내줌
+                      EXTRA_TODO_ENTRY_TYPE,
+                      entryType?.name
+                  )
+                  putExtra(
+                      EXTRA_TODO_POSITION,
+                      position
+                  )
+                  putExtra(
+                      EXTRA_TODO_MODEL,
+                      TodoModel(
+                          todoTitle.text.toString(),
+                          todoDescription.text.toString()
+                      )
+                  )
+              }
+              setResult(Activity.RESULT_OK, intent)
+              finish()
+  
+          }
+  ```
+
+* 엔트리 타입으로 **버튼 이름 변경**하기
+
+  ```
+  // 버튼 이름 변경
+          submit.setText(
+              when (entryType) {
+                  TodoContentType.EDIT -> R.string.todo_add_edit//수정
+                  else -> R.string.todo_add_submit//등록
+              }
+          )
+  ```
+
+  
+
+## 3) TodoListAdapter - 수정
+
+* 온클릭 을 인터페이스로 선언하지 않고 람다형식으로 변경해 사용하기
+
+  ```
+  class TodoListAdapter(
+      private val onClickItem: (Int, TodoModel) -> Unit
+  ) : RecyclerView.Adapter<TodoListAdapter.ViewHolder>() {
+  ```
+
+  * 뷰홀더에 **온클릭 리스너와 같이** 추가해줘야함(item recyclerview에  id값 추가해주기)
+
+    ```
+     class ViewHolder(
+            private val binding: TodoItemBinding,
+            private val onClickItem: (Int, TodoModel) -> Unit
+        ) : RecyclerView.ViewHolder(binding.root) {
+    
+            fun bind(item: TodoModel) = with(binding) {
+                title.text = item.title
+                description.text = item.description
+                
+                //리사이클러뷰 아이템 클릭리스너 생성
+                container.setOnClickListener {
+                    onClickItem(
+                        adapterPosition,
+                        item
+                    )
+                }
+            }
+        }
+    ```
+
+  * 온크리에이트 뷰 홀더에 온클릭 아이템 추가하기
+
+    ```
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
+            return ViewHolder(
+                TodoItemBinding.inflate(LayoutInflater.from(parent.context), parent, false),
+                onClickItem
+            )
+        }
+    ```
+
+    
+
+
+## 4) TodoFragment - 수정
+
+* 수정 값을 받아오기 위한 런쳐 생성하기
+
+  ```
+  private val editTodoLauncher =
+          registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
+              
+          }
+         
+  ```
+
+* 어댑터 연결해주기
+
+  * 리스트 item 을 클릭함과 동시에 수정할 수 있는 상태로 만들어줌
+
+  ```
+  private val listAdapter by lazy {
+          TodoListAdapter { position, item ->
+              editTodoLauncher.launch(
+                  TodoContentActivity.newIntentForEdit(
+                      requireContext(),
+                      position,
+                      item
+                  )
+              )
+          }
+      }
+  ```
+
+  ```
+  private val editTodoLauncher =
+          registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
+              if (result.resultCode == Activity.RESULT_OK) {
+                  //진입타입
+                  val entryType =
+                      result.data?.getStringExtra(TodoContentActivity.EXTRA_TODO_ENTRY_TYPE)
+  
+                  //수정할 recyclerview의 position
+                  val position = result.data?.getIntExtra(TodoContentActivity.EXTRA_TODO_POSITION, -1)
+  
+                  //수정한 아이템
+                  val todoModel = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                      result.data?.getParcelableExtra(
+                          TodoContentActivity.EXTRA_TODO_MODEL,
+                          TodoModel::class.java
+                      )
+                  } else {
+                      result.data?.getParcelableExtra(
+                          TodoContentActivity.EXTRA_TODO_MODEL
+                      )
+                  }
+  
+                  // entry type 에 따라 기능 분리
+                  when (TodoContentType.from(entryType)) {
+                      TodoContentType.EDIT -> modifyTodoItem(position, todoModel)
+                      else -> Unit // nothing
+                  }
+              }
+          }
+  ```
+
+  * **TodoFragment** 에 **modifyTodoItem** 만들어주기
+
+    ```
+    /**
+         * 아이템을 수정합니다.
+         */
+        private fun modifyTodoItem(
+            position: Int?,
+            todoModel: TodoModel?
+        ) {
+            listAdapter.modifyItem(
+                position,
+                todoModel
+            )
+        }
+    ```
+
+    
+
+  * **TodoListAdapter** 로 이동 후 **modifyItem** 함수 만들어주기
+
+    ```
+    fun modifyItem(
+            position: Int?,
+            todoModel: TodoModel?
+        ) {
+            if (position == null || todoModel == null) {
+                return
+            }
+            list[position] = todoModel
+            notifyItemChanged(position)
+        }
+    ```
+
+    
+
+* **TodoContentActivity**로 이동 후 어댑터에서 연결해준 position , item 가져오기
+
+  ```
+  //어댑터에서 연결해준 position , item 가져오기
+      private val todoModel by lazy {
+          if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+              intent?.getParcelableExtra(
+                  EXTRA_TODO_MODEL,
+                  TodoModel::class.java
+              )
+          } else {
+              intent?.getParcelableExtra<TodoModel>(
+                  EXTRA_TODO_MODEL
+              )
+          }
+      }
+  
+      private val position by lazy {
+          intent.getIntExtra(EXTRA_TODO_POSITION, -1)
+      }
+  ```
+
+  
+
+* initData() 만들어 수정일때 값 가져오기
+
+  ```
+  private fun initData() = with(binding) {
+          if (entryType == TodoContentType.EDIT) {
+              todoTitle.setText(todoModel?.title)
+              todoDescription.setText(todoModel?.description)
+          }
+      }
+  ```
+
+  * 만든 후 함수 호출해주기
+
+    ```
+    override fun onCreate(savedInstanceState: Bundle?) {
+            super.onCreate(savedInstanceState)
+            binding = TodoAddActivityBinding.inflate(layoutInflater)
+            setContentView(binding.root)
+            initView()
+            initData()//호출
+        }
+    ```
+
+    
+
+## 5) TodoContentActivity - 삭제
+
+* Init View 안에 삭제버튼 설정하기
+
+```
+ // 추가 버튼이 아닐 경우 삭제 버튼 노출
+        delete.isVisible = entryType != TodoContentType.ADD
+```
+
+* **TodoFragment** 에 **removeItemTodoItem** 만들어주기
+
+  ```
+  /**
+       * 아이템을 삭제합니다.
+       */
+      private fun removeItemTodoItem(position: Int?) {
+          listAdapter.removeItem(position)
+      }
+  
+      override fun onDestroyView() {
+          _binding = null
+          super.onDestroyView()
+      }
+  ```
+
+  * **editTodoLauncher** 안에 삭제 추가해주기
+
+    ```
+    // entry type 에 따라 기능 분리
+                    when (TodoContentType.from(entryType)) {
+                        TodoContentType.EDIT -> modifyTodoItem(position, todoModel)
+                        //삭제
+                        TodoContentType.REMOVE -> removeItemTodoItem(position)
+                        else -> Unit // nothing
+                    }
+    ```
+
+    
+
+* **TodoListAdapter** 로 이동 후 **removeItem** 함수 만들어주기
+
+  ```
+  fun removeItem(
+          position: Int?
+      ) {
+          if (position == null) {
+              return
+          }
+          list.removeAt(position)
+          notifyItemRemoved(position)
+      }
+  ```
+
+  
+
+* 삭제버튼 리스너 만들기
+
+```
+delete.setOnClickListener {
+            AlertDialog.Builder(this@TodoContentActivity).apply {
+                setMessage(R.string.todo_add_delete_dialog_message)
+                setPositiveButton(
+                    R.string.todo_add_delete_dialog_positive
+                ) { _, _ ->
+                    val intent = Intent().apply {
+                        putExtra(
+                            EXTRA_TODO_ENTRY_TYPE,
+                            TodoContentType.REMOVE.name
+                        )
+                        putExtra(
+                            EXTRA_TODO_POSITION,
+                            position
+                        )
+                    }
+                    setResult(Activity.RESULT_OK, intent)
+                    finish()
+                }
+                setNegativeButton(
+                    R.string.todo_add_delete_dialog_negative
+                ) { _, _ ->
+                    // nothing
+                }
+            }.create().show()
+        }
+```
+
