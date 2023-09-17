@@ -54,8 +54,6 @@ menu:
   - title:             Devlog
     url:               /devlog/
     submenu:
-     - title :          Algorithm
-       url :            /algorithm/
      - title :          Kotlin
        url :            /kotlin/
      - title :          Fixit
@@ -67,6 +65,8 @@ menu:
   - title:             Portfolio
     url:               /portfolio/
     
+#  - title :          Algorithm
+#    url :            /algorithm/
 #  - title:             SubCategory
 #    url:               /subcategory/
 #    submenu:
