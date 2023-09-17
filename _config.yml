@@ -10,7 +10,7 @@ url:                   'https://agilecatch.github.io'
 # When your site is in a subdirectory, set to `/<name of directory>`,
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-baseurl:               '/AgileCatch'
+#baseurl:               '/cheershena'
 
 
 # General settings
@@ -54,8 +54,8 @@ menu:
   - title:             Devlog
     url:               /devlog/
     submenu:
-    #  - title :          Algorithm
-    #    url :            /algorithm/
+     - title :          Algorithm
+       url :            /algorithm/
      - title :          Kotlin
        url :            /kotlin/
      - title :          Fixit
