@@ -2,7 +2,7 @@
 
 layout: post
 title: 전화번호부
-image: /assets/img/blog/contact17.png
+image: /assets/img/blog/kakaobank.png
 accent_image: 
   background: url('/assets/img/me/wave3.jpg') center/cover
   overlay: false
