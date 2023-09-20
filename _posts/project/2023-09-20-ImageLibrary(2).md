@@ -228,7 +228,7 @@ private fun initViewModel()= with(viewModel) {
 
 
 
-* **Viewmodel**에 test 값 넣어 확인하기
+* **Viewmodel**에 **test** 값 넣어 확인하기
 
 ```kotlin
 init {
