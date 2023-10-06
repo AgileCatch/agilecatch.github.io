@@ -13,7 +13,6 @@ description: >
 invert_sidebar: true
 categories :
  - project
-
 ---
 
 # [Kotlin/개인]  Kakaobank 2023 앱 개발자 채용 기출 문제 (2)

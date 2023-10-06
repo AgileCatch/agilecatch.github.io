@@ -1,3 +1,20 @@
+---
+layout: post
+title: 전화번호부
+image: /assets/img/blog/kakaobank.png
+accent_image: 
+  background: url('/assets/img/me/wave3.jpg') center/cover
+  overlay: false
+accent_color: '#fff'
+theme_color: '#fff'
+description: >
+    coding test
+invert_sidebar: true
+categories :
+ - project
+
+---
+
 # [Kotlin/Team] 13조 - Finder
 
 * toc
@@ -82,7 +99,7 @@
 - 선택한 카데고리에 맞춰 **채널 추천** (가로 슬라이드)
 - 모든 아이템은 클릭할시 **디테일 페이지로 이동**
 
-
+---
 
 ### **2) SearchFragment**
 
@@ -95,7 +112,7 @@
 - **Floating Button** 클릭 시 최상단 이동(아래로 슬라이드시에는 보이지 않음, 상단슬라이드시 노출)
 - 모든 아이템은 클릭할시 **디테일 페이지로 이동**
 
-
+---
 
 ### **3) DetailActivtiy**
 
@@ -109,9 +126,10 @@
 - Share 버튼 클릭시  **Android의 공유** 인텐트를 사용하여 다른 앱으로 비디오 제목 전송
 - Detail page 시작과 종료시 **Fade Effect** 추가
 
-
+---
 
 ### **4) MyPageFragment**
+
 
 <img src="../../assets/img/blog/finder_myvideos_out.gif" width="30%">
 
@@ -127,19 +145,6 @@
 
 
 ## 👨‍👩‍👧‍👦 **팀원소개 및 역할분담**
-
-<table>
-  <tbody>
-    <tr>
-      <td align="center"><a href="https://github.com/AgileCatch"><img src="https://github.com/Android-Team-13-Maniacs/android_project_maniacs/assets/106515742/cbfc4f47-03c1-4983-8dfd-b1be424baab6" width="100px;"><br/><sub><b>김영현</b></sub></a><br/></a></td>
-      <td align="center"><a href="https://github.com/minji05"><img src="https://github.com/Android-Team-13-Maniacs/android_project_maniacs/assets/106515742/b23e8a7c-b4ea-4752-a3a4-5576157db858" width="100px;"><br/><sub><b>신민지</b></sub></a><br/></a></td>
-      <td align="center"><a href="https://github.com/LeeChoongHwan"><img src="https://github.com/Android-Team-13-Maniacs/android_project_maniacs/assets/106515742/c87324ac-8778-4fac-8b83-25cb4b972abe" width="100px;"><br/><sub><b>이충환</b></sub></a><br/></a></td>
-      <td align="center"><a href="https://github.com/junghyunsick"><img src="https://github.com/Android-Team-13-Maniacs/android_project_maniacs/assets/106515742/36aeded6-3d62-4d9e-8c4b-5e832b2fb99c" width="100px;"><br/><sub><b>정현식</b></sub></a><br/></a></td>
-     <tr/>
-  </tbody>
-</table>
-
-
 
 - **김영현**
 
