@@ -20,8 +20,6 @@ categories :
 
 * toc
 {:toc}
-
-
 ---
 
 
@@ -45,7 +43,7 @@ Execution failed for task ':app:processDebugGoogleServices'.
 
 
 
-## 해결방법
+## 👩🏻‍💻 해결방법
 
 
 ![firebase1](../../../assets/img/blog/firebase1.png)
