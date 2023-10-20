@@ -20,8 +20,6 @@ categories :
 
 * toc
 {:toc}
-
-
 ---
 
 프로젝트 진행중 **Afragment**에서 **BFragment**를 통해 **Activity**의 값을 전달 받아야 하는 일이 생겼다.
