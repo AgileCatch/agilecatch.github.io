@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: 전화번호부
+title: 문제풀기
 image: /assets/img/blog/kakaobank.png
 accent_image: 
   background: url('/assets/img/me/wave3.jpg') center/cover

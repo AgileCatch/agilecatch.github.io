@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 전화번호부
-image: /assets/img/blog/kakaobank.png
+title: 유튜브 검색
+image:
 accent_image: 
   background: url('/assets/img/me/wave3.jpg') center/cover
   overlay: false
@@ -185,3 +185,4 @@ categories :
   * 카테고리 리스트 기능 구현
   * NullPointerException 예외 처리
   * 쉐얼드 프리페어런스 수정사항 적용하기
+
