@@ -18,6 +18,7 @@ hide_description: true
 
 
 <br/>
+
 ## Personal Data
 ---
 > 2000.05.25 대한민국<br/>
@@ -61,6 +62,18 @@ hide_description: true
 
 ## Awards
 ---
+<u><strong>2023 내일 배움 캠프 앱트랙 1기 프로젝트상 </strong></u>
+
+- 주최, 주관: 스파르타 코딩클럽
+
+- 최고의 프로젝트 상
+
+<u><strong>2023 내일 배움 캠프 앱트랙 1기  </strong></u>
+
+- 주최, 주관: 스파르타 코딩클럽
+
+- 우수 TIL상
+
 <u><strong>2022 빛가람에너지밸리 소프트웨어 소프트웨어 작품 경진대회 </strong></u>
 
 - 주최, 주관: 한전KDN(주)
@@ -80,9 +93,9 @@ hide_description: true
 ## Skills and Certification
 ---
 -Languages : Java, Kotlin, C, C++ <br/>
--Development Tools: Android Studio, VS Code, Visual Studio<br/>
+-Development Tools: Android Studio, VS Code, Visual Studio, IntelliJ IDEA<br/>
 -Frameworks: Flutter<br/>
--Collaboration Platforms: GitHub<br/>
--Documentation Tools: Typora<br/>
+-Collaboration Platforms: GitHub, Notion, Slack<br/>
+-Documentation Tools: Notion, Typora<br/>
 -Certification : 정보처리기사,  Adobe Premiere Pro CS6, Adobe Photoshop CS6
 
