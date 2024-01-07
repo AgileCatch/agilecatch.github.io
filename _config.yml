@@ -54,8 +54,8 @@ menu:
   - title:             Devlog
     url:               /devlog/
     submenu:
-     - title :          Kotlin
-       url :            /kotlin/
+     - title :          Android
+       url :            /android/
      - title :          Fixit
        url :            /fixit/
      - title :          Flutter

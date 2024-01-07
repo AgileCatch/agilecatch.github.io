@@ -12,7 +12,7 @@ description: >
 invert_sidebar: true
 categories :
  - devlog	
- - kotlin
+ - Android
 ---
 
 # [kotlin] ViewPager2를 사용해 TabLayout 만들기 

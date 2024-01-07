@@ -12,7 +12,7 @@ description: >
 invert_sidebar: true
 categories :
  - devlog	
- - kotlin
+ - Android
 
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: list
 category: devlog
-bigtitle: Kotlin
-slug: kotlin
+bigtitle: Android
+slug: android
 description: >
     Android App Development Playground
 related_posts:

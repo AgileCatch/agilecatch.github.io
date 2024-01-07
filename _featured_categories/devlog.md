@@ -16,12 +16,12 @@ description: >
 
 ## categories
 
-* **[Kotlin]** ⬅ Android App Development Playground 바로가기!
+* **[Android]** ⬅ Android App Development Playground 바로가기!
 * **[Fixit]** ⬅ Programming Puzzles 바로가기!
 * **[Flutter]** ⬅ Android & ios App Development Playground 바로가기!
 <!-- * **[Algorithm]** ⬅ Algorithmic Adventure 바로가기! -->
 
-[Kotlin]: /kotlin/
+[Android]: /android/
 [Fixit]: /fixit/
 [Flutter]: /flutter/
 <!-- [Algorithm]: /algorithm/ -->
