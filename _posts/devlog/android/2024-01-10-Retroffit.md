@@ -15,13 +15,11 @@ categories :
  - android
 
 ---
-
+# [Kotlin] Retrofit과 Retrofit2의 차이
 
 * toc
 {:toc}
 ---
-
-# [Kotlin] Retrofit과 Retrofit2의 차이
 
 오늘은 레트로핏에대해 공부해 볼 것이다.
 
