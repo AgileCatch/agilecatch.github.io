@@ -1,6 +1,5 @@
 ---
 layout: post
-title: 코틀린 배우기
 image: /assets/img/blog/kotlin.png
 accent_image: 
   background: url('/assets/img/me/wave3.jpg') center/cover
