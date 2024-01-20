@@ -13,8 +13,6 @@ categories :
  - devlog	
  - android
 
-
-
 ---
 
 # [Kotlin] Java와 Kotlin의 차이점
