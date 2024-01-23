@@ -19,8 +19,6 @@ categories :
 
 * toc
 {:toc}
-
-
 ---
 
 ## 1) **Nullable type**
