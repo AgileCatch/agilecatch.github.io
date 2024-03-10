@@ -148,7 +148,7 @@ categories :
 
 - **김영현**
 
-  - MainActivity ViewPager , Tablayout 구현
+  - MainActivity ViewPager2 , Tablayout 구현
   - VideoDetailDetailActivity Layout 구현
   - MVVM 모델 적용
   - Video item 클릭 시 데이터 전달 구현
