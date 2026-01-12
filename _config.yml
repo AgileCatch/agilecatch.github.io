@@ -30,10 +30,10 @@ description:           >
     Work Hard to be Lazy.
 
 # A shorter description for the sidebar.
-tagline:               "S/W Engineer - 김영현(기록하는 습관)"
+tagline:               ""다음 사람이 편한 코드"를 작성하는 개발자"
 
 # A list of keywords for your blog
-keywords:              [ Kotlin, JAVA, C, C++, C#, Git]
+keywords:              [ Kotlin, JAVA]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -45,7 +45,7 @@ author:
   # Used by `jekyll-feed`:
   name:                <YeongHyeon> <Kim>
   email:               <agilecatch@gmail.com>
-  instagram:           <https://www.instagram.com/molang___2/>
+  instagram:           <https://www.instagram.com/molang.e/>
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -58,8 +58,8 @@ menu:
        url :            /android/
      - title :          Fixit
        url :            /fixit/
-     - title :          Flutter
-       url :            /flutter/    
+     - title :          AI & Vibe Coding
+       url :            /ai/    
   - title:             Project
     url:               /project/
   - title:             Portfolio

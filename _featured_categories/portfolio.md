@@ -10,8 +10,8 @@ hide_description: true
 <center>
 <span style="font-size:170%;font-weight:bold;">
 <br/>Yeonghyeon Kim</span>
-<span><br/><br/>안드로이드 개발자 -김영현 <br/>
-“Building the future, one line of code at a time.”  <br/><br/><br/></span>
+<span><br/><br/>안드로이드 개발자 - 김영현 <br/>
+““다음 사람이 편한 코드”를 최우선으로 하는 개발자 Agilecatch 입니다.”  <br/><br/><br/></span>
 </center>
 
 
